@@ -36,11 +36,18 @@ h1 {
 }
 
 .header img {
-    width: 50px;
+    width: 7vw;
 }
 
 .hero img {
     height: 25vh;
+}
+
+.box img {
+    height: 8vh;
+    border: 3px solid #1b4663;
+    border-radius: 10px;
+    padding: 16px;
 }
 
 .header {
@@ -74,6 +81,34 @@ h1 {
     padding: 5px 20px;
     color: #F9FAF8;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin: 64px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 40px 0;
+}
+
+.box {
+    max-width: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+
 
 
 
