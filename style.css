@@ -37,13 +37,14 @@ h4 {
 }
 
 .header ul,
-.hero-secondary {
+.hero-secondary,
+.footer {
     color: #e5e7e8;
     font-size: 18px;
 }
 
 .header img {
-    width: 7vw;
+    width: 4vw;
 }
 
 .hero img {
@@ -66,7 +67,8 @@ h4 {
 
 .hero {
     padding: 64px 48px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 52px;
 }
 
 .hero-text {
@@ -164,11 +166,7 @@ h4 {
     border: 2px solid #F9FAF8;
 }
 
-
-
-
-
-
-
-
-
+.footer {
+    padding: 20px;
+    justify-content: center;
+}
